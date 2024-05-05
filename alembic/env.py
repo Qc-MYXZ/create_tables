@@ -4,8 +4,8 @@ from sqlalchemy import engine_from_config
 from sqlalchemy import pool
 import pymysql
 from alembic import context
-from celery_spider import models
-from celery_spider.models import Base
+import models
+from models import Base
 
 pymysql.install_as_MySQLdb()
 
