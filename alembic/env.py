@@ -6,7 +6,6 @@ import pymysql
 from alembic import context
 import models
 from models import Base
-
 pymysql.install_as_MySQLdb()
 
 
